@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+main {
+  width: 626px;;
+  margin: 23px auto 0;
+}
+
+main img {
+}
+
+h1 {
+  color: #3f3d56;
+  font-family: 'Dosis', sans-serif;
+  font-weight: normal;
+  align-items: center;
+}
+
+h1 span {
+  color: #ee24ff;
+  font-weight: bold;
+}
+
+p {
+  color: #828282;
+  padding-inline: 50px;
+  text-align: center;
+  font-size: 15px;
+  line-height: 22px;
+}
+
+strong, a{
+  color: #3F3D56;
+}
+
+main p + p{
+  margin-bottom: 64px;
+}
+
+a{
+  font-weight: bold;
+  text-decoration: none;
+  padding-bottom: 40px;
+}
+
+a + a {
+  margin-left: 28px;
+}
+
+#wave{
+  position: fixed;
+  width: 100%;
+  height: 104px;
+  bottom: 0;
+  left: 0;
+}
